@@ -1,7 +1,9 @@
 # Inicialize as listas vazias para armazenar compras, vendas e o estoque.
 # Pode-se apenas ser vendido o que existe no estoque, potanto, o estoque inicial é 0.
-# Recomenda-se se quiser fazer um estoque já existente e dái começar venda e compra,
-# Primeiramente adiciona os itens no estoque com valor 0, dai passe a vende-los.
+# Recomenda-se caso já existente fazer um estoque dái começar vendas e compras.
+# Primo adicione os itens no estoque com valor 0 em compras, dái passe a vende-los.
+# Se quiser retirar um item do estoque, basta vender a quantidade do item pelo valor 0.
+# Nome do produto precisa ser escrito identico ao item correspondente em "estoque".
 compras = []
 vendas = []
 estoque = []
